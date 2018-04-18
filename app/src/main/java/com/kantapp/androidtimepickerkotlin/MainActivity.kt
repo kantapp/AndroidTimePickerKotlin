@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
             return "Time : ${hour - 12}:$minute $status"
         } else {
             status = "AM"
-            return "Time : $($hour-12):$minute $status"
+            return "Time : $hour:$minute $status"
         }
 
     }
